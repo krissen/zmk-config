@@ -10,7 +10,7 @@
   ],
   "layers": [
     [
-        "&none",  "&none",  "&kp Q",  "&kp W",  "&none",  "&none",           "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
+        "&none",  "&none",  "&none",  "&kp Q",  "&kp W",  "&none",  "&none",           "&none",  "&none",  "&none",  "&none",  "&none",  "&none", "&none",
         "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
         "&none",  "&none",  "&none",  "&none",  "&none",  "&none",           "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
                                       "&none",  "&none",  "&none",           "&none",  "&none",  "&none"
