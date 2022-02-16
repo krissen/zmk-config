@@ -22,37 +22,37 @@
 
         default_layer {
             bindings = <
-  &none   &none   &kp Q   &kp W   &none   &none            &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none            &none   &none   &none   &none   &none   &none
-  &none   &none   &none   &none   &none   &none            &none   &none   &none   &none   &none   &none
-                          &none   &none   &none            &none   &none   &none
+ &kp LWIN  &kp GRAVE   &kp Q   &kp W      &kp E            &kp R                &kp T           &kp Y      &kp U      &kp I    &kp O     &kp P       &kp LBKT  &mt RWIN RBKT
+           &kp LCTRL   &kp A   &kp S      &kp D            &kp F                &kp G           &kp H      &kp J      &kp K    &kp L  &kp SEMI  &mt RCTRL SQT
+            &kp LALT   &kp Z   &kp X      &kp C            &kp V                &kp B           &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+                                      &lt 2 TAB  &mt LSHFT SPACE            &lt 2 DEL  &mt RSHFT BSPC  &lt 1 ESC
             >;
         };
 
         layer_LWR {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans            &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans  &trans            &trans          &trans
             >;
         };
 
         layer_RSE {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans            &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans  &trans            &trans          &trans
             >;
         };
 
         layer_ADJ {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans            &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans  &trans            &trans          &trans
             >;
         };
 
