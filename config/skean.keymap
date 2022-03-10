@@ -61,9 +61,9 @@
 //       |      |  0  |  1  |  2  |  3  |  .  |   | VOLD| END | DOWN| PGDN| PAUS|     |
 //                          |     |     | ADJ |   | ADJ |     |     |
                         bindings = <
-   &trans &kp KP_NUM  &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS	  &kp C_VOL_UP &kp HOME &kp UP	  &kp PG_UP &kp RC(RS(V)) &kp CAPS &mt RCMD LA(RBKT)
-          &mt LCTRL KP_EQUAL &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS	  &kp C_MUTE   &kp LEFT &kp DOWN  &kp RIGHT &kp RC(C)	  &mt RCTRL K_APP
-          &mt LALT KP_COMMA  &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT	  &kp C_VOL_DN &kp END  &kp PSCRN &kp PG_DN &kp RC(V)	  &trans
+   &trans &kp KP_NUM  &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS	  &kp C_VOL_UP &kp HOME &kp UP	  &kp PG_UP &kp RG(RS(V)) &kp CAPS &mt RCMD LA(RBKT)
+          &mt LCTRL KP_EQUAL &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS	  &kp C_MUTE   &kp LEFT &kp DOWN  &kp RIGHT &kp RG(C)	  &mt RCTRL K_APP
+          &mt LALT KP_COMMA  &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT	  &kp C_VOL_DN &kp END  &kp PSCRN &kp PG_DN &kp RG(V)	  &trans
                                                            &trans &trans &lt ADJ RET   &lt ADJ ESC &trans &trans
                         >;
                 };
