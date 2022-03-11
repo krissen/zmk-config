@@ -61,9 +61,9 @@
 //       |      |  0  |  1  |  2  |  3  |  .  |   | VOLD| END | DOWN| PGDN| PAUS|     |
 //                          |     |     | ADJ |   | ADJ |     |     |
                         bindings = <
-   &trans &kp KP_NUM  &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS	  &kp C_VOL_UP &kp HOME &kp UP	  &kp PG_UP &kp RG(RS(V)) &kp CAPS &mt RCMD LA(RBKT)
+   &trans &kp ESC  &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS	  &kp C_VOL_UP &kp HOME &kp UP	  &kp PG_UP &kp RG(RS(V)) &kp CAPS &mt RCMD LA(RBKT)
           &mt LCTRL KP_EQUAL &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS	  &kp C_MUTE   &kp LEFT &kp DOWN  &kp RIGHT &kp RG(C)	  &mt RCTRL K_APP
-          &mt LALT KP_COMMA  &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT	  &kp C_VOL_DN &kp END  &kp PSCRN &kp PG_DN &kp RG(V)	  &trans
+          &mt LALT LS(N3)  &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT	  &kp C_VOL_DN &kp END  &kp PSCRN &kp PG_DN &kp RG(V)	  &trans
                                                            &trans &trans &lt ADJ RET   &lt ADJ ESC &trans &trans
                         >;
                 };
@@ -76,7 +76,7 @@
                         bindings = <
    &reset &bootloader  &none        &none        &none        &none        &none              &none        &kp PAUSE_BREAK        &kp INS        &kp SLCK        &none         &bootloader &reset
           &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4       &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0  &bt BT_CLR
-          &none        &none        &none        &none        &none        &none              &none        &none        &none        &none        &none         &none
+          &none        &none        &none        &none        &none        &none              &none        &kp LNLCK        &none        &none        &none         &none
                                                                     &trans &none &trans   &trans &none &trans
                         >;
                 };
