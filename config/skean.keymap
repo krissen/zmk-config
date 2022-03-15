@@ -35,7 +35,7 @@
                         bindings = <
    &mt LWIN ESC &kp GRAVE	&kp Q &kp W &kp F &kp P &kp G         &kp J &kp L &kp U     &kp Y   &kp SEMI &kp LBKT      &mt RWIN RBKT
             &mt LCTRL LA(N4) 	&kp A &kp R &kp S &kp T &kp D         &kp H &kp N &kp E     &kp I   &kp O    &mt RCTRL SQT
-            &mt LALT LA(N2)	&kp Z &kp X &kp C &kp V &kp B         &kp K &kp M &kp COMMA &kp DOT &kp FSLH &mt RALT BSLH
+            &mt LALT LS(RBKT)	&kp Z &kp X &kp C &kp V &kp B         &kp K &kp M &kp COMMA &kp DOT &kp FSLH &mt RALT BSLH
 		&lt RSE BSPC &mt LSHFT SPACE &lt LWR TAB		&lt LWR RET &mt RSHFT SPACE &lt RSE DEL
                         >;
                 };
@@ -47,10 +47,10 @@
 //           |  ALT/´   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | ALT/`  |
 //                    | ADJ/BSPC | SHFT/SPC | LWR/TAB |   | LWR/ENT | SHFT/SPC | ADJ/DEL|
                         bindings = <
-   &trans &kp NON_US_BACKSLASH &kp F1   &kp F2 &kp F3   &kp F4   &kp F5           		&kp F6	  &kp F7   &kp F8   &kp F9   &kp F10  &kp F11 &mt RGUI F12
-          &mt LCTRL LA(LS(N8)) &kp LA(N8) &kp LA(N9) &kp LA(LS(N9)) &kp LA(N7) &kp LA(LS(N7)) 	&kp LS(N7) &kp LS(MINUS) &kp RS(BSLH) &kp RS(N8) &kp RS(N9) &mt RCTRL MINUS
-          &mt LALT EQUAL &kp N1   &kp N2 &kp N3   &kp N4  &kp N5           			&kp N6    &kp N7   &kp N8   &kp N9   &kp N0   &mt RALT RS(EQUAL)
-                                              &lt ADJ BSPC &trans &trans   &trans &trans &lt ADJ DEL
+   &trans &kp NON_US_BACKSLASH &kp F1     &kp F2     &kp F3         &kp F4     &kp F5           &kp F6	   &kp F7        &kp F8       &kp F9     &kp F10      &kp F11            &mt RGUI F12
+          &mt LCTRL LA(LS(N8)) &kp LA(N8) &kp LA(N9) &kp LA(LS(N9)) &kp LA(N7) &kp LA(LS(N7))	&kp LS(N7) &kp LS(MINUS) &kp RS(BSLH) &kp RS(N8) &kp RS(N9)   &mt RCTRL MINUS
+          &mt LALT EQUAL       &kp LS(N1) &kp LA(N2) &kp LS(N3)     &kp LS(N4) &kp LS(N5)       &kp RS(N6) &kp RA(N3)    &kp LA(N8)   &kp LA(N9) &kp RA(BSLH) &mt RALT RS(EQUAL)
+                                              &lt ADJ BSPC &trans &trans   			&trans &trans &lt ADJ DEL
                         >;
                 };
 
@@ -61,9 +61,9 @@
 //           | ALT/.  |  0  |  1  |  2  |  3  |  ,  |   | VOLD | END  | DOWN | PGDN | COPY  | ALT/`  |
 //                  | ADJ/BSPC | SFHT/SPC | LWR/TAB |   | LWR/ENT | SHFT/SPC | ADJ/DEL |
                         bindings = <
-   &trans &kp ESC  &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS	  	&kp C_VOL_UP &kp HOME &kp UP	&kp PG_UP &kp RG(X) &kp RA(RS(RG(V))) &mt RCMD LA(RBKT)
-          &mt LCTRL KP_EQUAL &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS	&kp C_MUTE   &kp LEFT &kp DOWN  &kp RIGHT &kp RG(C) &mt RCTRL LS(N2)
-          &mt LALT DOT  &kp KP_N0       &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT	&kp C_VOL_DN &kp END  &kp PSCRN &kp PG_DN &kp RG(V) &mt RALT RS(EQUAL)
+   &trans &kp ESC	     &kp KP_SLASH    &kp N7 &kp N8 &kp N9 &kp KP_MINUS	  	&kp C_VOL_UP &kp HOME &kp UP	&kp PG_UP &kp RG(X) &kp RA(RS(RG(V))) &mt RCMD LA(RBKT)
+          &mt LCTRL KP_EQUAL &kp KP_MULTIPLY &kp N4 &kp N5 &kp N6 &kp KP_PLUS		&kp C_MUTE   &kp LEFT &kp DOWN  &kp RIGHT &kp RG(C) &mt RCTRL LS(N2)
+          &mt LALT DOT       &kp N0          &kp N1 &kp N2 &kp N3 &kp KP_DOT		&kp C_VOL_DN &kp END  &kp PSCRN &kp PG_DN &kp RG(V) &mt RALT RS(EQUAL)
                                                            &trans &trans &lt ADJ RET   	&lt ADJ ESC &trans &trans
                         >;
                 };
