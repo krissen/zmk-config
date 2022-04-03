@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: skean
+  - board: nrf52833dk_nrf52833
     shield: skean_left
-  - board: skean
+  - board: nrf52833dk_nrf52833
     shield: skean_right
