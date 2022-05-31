@@ -42,12 +42,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-if BUILD_OUTPUT_UF2
-
-config BUILD_OUTPUT_UF2_FAMILY_ID
-	string "UF2 device family ID"
-	default "0xADA52840"
-
-endif # BUILD_OUTPUT_UF2
-
 endif # BOARD_SKEAN_LEFT || BOARD_SKEAN_RIGHT
