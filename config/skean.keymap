@@ -17,12 +17,14 @@
 &lt {
 	flavor = "tap-preferred";
 	tapping-term-ms = <200>;
-	};
+};
 &mt { 
 	flavor = "tap-preferred";
 	tapping-term-ms = <200>;
-	};
-
+};
+&mmv {
+	time-to-max-speed-ms = <200>;
+};
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -75,11 +77,13 @@
 //       |     |     |     	  |	      |		   |     |   |     | NLCK  |     | CLCK |     | APP   |
 //                  		  | ADJ/BSPC  |  | LWR/TAB |	 | LWR/ENT |  | ADJ/SPC |
                         bindings = <
-   &none &none  &none &mkp LCLK      &mmv MOVE_UP   &mkp RCLK       &none        	&none        &kp PAUSE_BREAK    &kp INS      &kp SLCK     &none         &bootloader &reset
-         &none	&none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none       	&bt BT_SEL 4 &bt BT_SEL 3 	&bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0  &bt BT_CLR
-         &none  &none &none          &none          &none           &none         	&none        &kp LNLCK        	&none        &kp CAPS     &none         &kp K_APP
+   &none &none  &none &mkp LCLK      &mmv MOVE_UP   &mkp RCLK        &none        	&none        &kp PAUSE_BREAK    &kp INS      &kp SLCK     &none         &bootloader &reset
+         &none	&none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT  &none       	&bt BT_SEL 4 &bt BT_SEL 3 	&bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0  &bt BT_CLR
+         &none  &none &mwh SCROLL_UP &none          &mwh SCROLL_DOWN &none         	&none        &kp LNLCK        	&none        &kp CAPS     &none         &kp K_APP
                                                                     &trans &none &trans   &trans &none &trans
                         >;
                 };
         };
 };
+
+/* vim: set nowrap: */
