@@ -23,7 +23,7 @@
 	tapping-term-ms = <200>;
 };
 
-#define U_MOUSE_MOVE_MAX 1200
+#define U_MOUSE_MOVE_MAX 1800
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
@@ -34,7 +34,7 @@
 #define MOVE_RIGHT MOVE_HOR(U_MOUSE_MOVE_MAX)
 
 &mmv {
-	time-to-max-speed-ms = <200>;
+	time-to-max-speed-ms = <400>;
 };
 / {
         keymap {
