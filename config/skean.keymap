@@ -23,7 +23,7 @@
 	tapping-term-ms = <200>;
 };
 
-#define U_MOUSE_MOVE_MAX 1800
+#define U_MOUSE_MOVE_MAX 1500
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
@@ -35,6 +35,21 @@
 
 &mmv {
 	time-to-max-speed-ms = <400>;
+};
+
+#define U_MOUSE_SCROLL_MAX 100
+
+#undef SCROLL_UP
+#undef SCROLL_DOWN
+#undef SCROLL_LEFT
+#undef SCROLL_RIGHT
+#define SCROLL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
+#define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
+#define SCROLL_LEFT SCROLL_HOR(-U_MOUSE_SCROLL_MAX)
+#define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
+
+&mwh {
+	  time-to-max-speed-ms = <500>;                 /* <--- How long time until max speed is reached */
 };
 / {
         keymap {
