@@ -100,7 +100,7 @@
 // -----------------------------------------------------------------------------------------
 // |     |     |     | MOUSE LCLK | MOUSE UP  | MOUSE RCLK |     |   |     | BREAK | INS | SLCK |     | BLDR  | RST |
 //       |     |     | MOUSE LEFT | MOUSE DWN | MOUSE RGHT |     |   | BT4 | BT3   | BT2 | BT1  | BT0 | BTCLR |
-//       |     |     |     	  |	      |		   |     |   |     | NLCK  |     | CLCK |     | APP   |
+//       |     |     | MWHEEL UP  |	      | MWHEEL DWN |     |   |     | NLCK  |     | CLCK |     | APP   |
 //                  		  | ADJ/BSPC  |  | LWR/TAB |	 | LWR/ENT |  | ADJ/SPC |
                         bindings = <
    &none &none  &none &mkp LCLK      &mmv MOVE_UP   &mkp RCLK        &none        	&none        &kp PAUSE_BREAK    &kp INS      &kp SLCK     &none         &bootloader &reset
