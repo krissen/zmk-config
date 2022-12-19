@@ -37,7 +37,7 @@
 	time-to-max-speed-ms = <400>;
 };
 
-#define U_MOUSE_SCROLL_MAX 100
+#define U_MOUSE_SCROLL_MAX 50
 
 #undef SCROLL_UP
 #undef SCROLL_DOWN
@@ -49,7 +49,7 @@
 #define SCROLL_RIGHT SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
 &mwh {
-	  time-to-max-speed-ms = <500>;                 /* <--- How long time until max speed is reached */
+	  time-to-max-speed-ms = <750>;                 /* <--- How long time until max speed is reached */
 };
 / {
         keymap {
